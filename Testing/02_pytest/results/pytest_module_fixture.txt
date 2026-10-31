@@ -1,0 +1,16 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Redpaw\Desktop\College-OOP-And-Testing-Repo\Testing\02_pytest\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Redpaw\Desktop\College-OOP-And-Testing-Repo\Testing\02_pytest
+configfile: pyproject.toml
+testpaths: .
+collecting ... collected 35 items / 33 deselected / 2 selected
+
+test_app.py::test_module_fixture_type 
+    SETUP    M shared_rectangle
+        test_app.py::test_module_fixture_type (fixtures used: shared_rectangle) PASSED
+test_app.py::test_module_fixture_length 
+        test_app.py::test_module_fixture_length (fixtures used: shared_rectangle) PASSED
+    TEARDOWN M shared_rectangle
+
+====================== 2 passed, 33 deselected in 0.05s =======================

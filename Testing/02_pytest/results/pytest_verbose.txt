@@ -1,0 +1,45 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Redpaw\Desktop\College-OOP-And-Testing-Repo\Testing\02_pytest\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Redpaw\Desktop\College-OOP-And-Testing-Repo\Testing\02_pytest
+configfile: pyproject.toml
+testpaths: .
+collecting ... collected 35 items
+
+test_app.py::test_triangle_type PASSED                                   [  2%]
+test_app.py::test_square_properties PASSED                               [  5%]
+test_app.py::test_allowed_figure[square] PASSED                          [  8%]
+test_app.py::test_allowed_figure[rectangle] PASSED                       [ 11%]
+test_app.py::test_allowed_figure[triangle] PASSED                        [ 14%]
+test_app.py::test_valid_length[1] PASSED                                 [ 17%]
+test_app.py::test_valid_length[10] PASSED                                [ 20%]
+test_app.py::test_valid_length[2.5] PASSED                               [ 22%]
+test_app.py::test_valid_length[0.1] PASSED                               [ 25%]
+test_app.py::test_invalid_figure[circle] PASSED                          [ 28%]
+test_app.py::test_invalid_figure[hexagon] PASSED                         [ 31%]
+test_app.py::test_invalid_figure[empty] PASSED                           [ 34%]
+test_app.py::test_invalid_figure[uppercase] PASSED                       [ 37%]
+test_app.py::test_invalid_figure[spaces] PASSED                          [ 40%]
+test_app.py::test_invalid_figure[none] PASSED                            [ 42%]
+test_app.py::test_invalid_figure[integer] PASSED                         [ 45%]
+test_app.py::test_invalid_figure[boolean] PASSED                         [ 48%]
+test_app.py::test_invalid_figure[list] PASSED                            [ 51%]
+test_app.py::test_invalid_figure[dictionary] PASSED                      [ 54%]
+test_app.py::test_invalid_length[zero] PASSED                            [ 57%]
+test_app.py::test_invalid_length[negative-integer] PASSED                [ 60%]
+test_app.py::test_invalid_length[negative-float] PASSED                  [ 62%]
+test_app.py::test_invalid_length[string] PASSED                          [ 65%]
+test_app.py::test_invalid_length[empty-string] PASSED                    [ 68%]
+test_app.py::test_invalid_length[none] PASSED                            [ 71%]
+test_app.py::test_invalid_length[true] PASSED                            [ 74%]
+test_app.py::test_invalid_length[false] PASSED                           [ 77%]
+test_app.py::test_invalid_length[list] PASSED                            [ 80%]
+test_app.py::test_invalid_length[dictionary] PASSED                      [ 82%]
+test_app.py::test_invalid_length[complex] PASSED                         [ 85%]
+test_app.py::test_invalid_length[nan] PASSED                             [ 88%]
+test_app.py::test_invalid_length[positive-infinity] PASSED               [ 91%]
+test_app.py::test_invalid_length[negative-infinity] PASSED               [ 94%]
+test_app.py::test_module_fixture_type PASSED                             [ 97%]
+test_app.py::test_module_fixture_length PASSED                           [100%]
+
+============================= 35 passed in 0.07s ==============================

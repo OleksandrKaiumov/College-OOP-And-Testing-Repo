@@ -1,0 +1,12 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Redpaw\Desktop\College-OOP-And-Testing-Repo\Testing\02_pytest\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Redpaw\Desktop\College-OOP-And-Testing-Repo\Testing\02_pytest
+configfile: pyproject.toml
+testpaths: .
+collecting ... collected 35 items / 33 deselected / 2 selected
+
+test_app.py::test_triangle_type PASSED                                   [ 50%]
+test_app.py::test_square_properties PASSED                               [100%]
+
+====================== 2 passed, 33 deselected in 0.06s =======================
